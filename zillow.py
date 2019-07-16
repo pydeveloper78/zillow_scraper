@@ -15,7 +15,7 @@ import zlib, base64
 categories_field = []
 
 def get_proxy():
-    proxy_r='http://lum-customer-hl_f6570114-zone-static-country-us:tlmgc8x07nd6@zproxy.lum-superproxy.io:22225'
+    proxy_r='PROXY'
     proxies = {
         'http': proxy_r,
         'https': proxy_r
